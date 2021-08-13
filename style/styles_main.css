@@ -9,18 +9,21 @@
 
 #nav-bar {
     top: 0;
+    z-index: 999;
     background-color: black;
     display: flex;
     width: 100%;
-    position: fixed;
+    position: sticky;
     text-decoration: none;
 }
 
 .item-left, .item-right, a {
-    padding: 4px 4px;
+    padding: 4px 8px;
     color: floralwhite;
     display: inline-block;
     text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
 }
 
 .item-left:hover, .item-right:hover {
