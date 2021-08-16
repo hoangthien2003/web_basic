@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/styles_button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Button: Block of HTML</title>
 </head>
 <body>
+
+    <!-- ===== Button ===== -->
     <div>
         <button class="btn btn--success">SUCCESS</button>
         <button class="btn btn--warning">WARNING</button>
         <button class="btn btn--error">ERROR</button>
     </div>
-    <script src="./JS/button_js.js"></script>
+
+    <!-- ===== Toasts Message ===== -->
+    <!-- ===== SUCCESS ===== -->
+    <div id="toast">
+        <div class="toast toast--success">
+            <div class="toast__icon">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">SUCCESS</h3>
+                <p class="toast__msg">Chuc mung ban da thanh cong ^^</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="./JS/button_js.js"></script>
 </html>
