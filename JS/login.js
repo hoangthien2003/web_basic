@@ -14,7 +14,7 @@ btn_login.onclick = function login () {
             text_html.innerHTML = `Hello ${username[0].value} ^^`
             setTimeout(() => {
                 location.href = "https://hoangthien2003.github.io/web_basic/main.html"
-            }, 2000)
+            }, 1000)
         }
         else {
             alert ('Password wrong! Please try again...')
@@ -39,7 +39,7 @@ btn_register.onclick = function register () {
             text_html.innerHTML = `Hello ${username[0].value} ^^`
             setTimeout(() => {
                 location.href = "https://hoangthien2003.github.io/web_basic/button.html"
-            }, 2000)
+            }, 1000)
         }
         else {
             alert ('Password wrong! Please try again...')
