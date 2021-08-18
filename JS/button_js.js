@@ -24,7 +24,7 @@ function toast({
         const icons = {
             success: 'fas fa-check-circle',
             warning: 'fas fa-exclamation',
-            error: 'fas fa-exclamation-circle'
+            error: 'fas fa-times'
         };
         const icon = icons[type];
         const delay = (duration / 1000).toFixed(2);

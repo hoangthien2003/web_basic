@@ -13,7 +13,7 @@ btn_login.onclick = function login () {
             confirm(`Welcome ${username[0].value} to the navbar's world ^^`)
             text_html.innerHTML = `Hello ${username[0].value} ^^`
             setTimeout(() => {
-                location.href = "file:///home/hoangthien/Desktop/fullstack/basic/main.html"
+                location.href = "https://hoangthien2003.github.io/web_basic/main.html"
             }, 1000)
         }
         else {
@@ -38,7 +38,7 @@ btn_register.onclick = function register () {
             confirm(`Welcome ${username[0].value} to the button's world ^^`)
             text_html.innerHTML = `Hello ${username[0].value} ^^`
             setTimeout(() => {
-                location.href = "file:///home/hoangthien/Desktop/fullstack/basic/button.html"
+                location.href = "https://hoangthien2003.github.io/web_basic/button.html"
             }, 1000)
         }
         else {
